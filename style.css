@@ -23,7 +23,9 @@ h1 {
    font-style: normal;
   font-optical-sizing: auto;
   color: #8e8a8a;
-  margin-bottom: 20px;
+  margin-bottom: 1.5em;
+   margin-left: 2.5rem;
+    margin-right: 2.5rem;
   display: block; 
 }
 

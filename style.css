@@ -1,0 +1,59 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; 
+  background: linear-gradient(135deg, #000000, #1e0630);
+  font-family: Arial, sans-serif;
+}
+
+
+
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+ 
+   font-size: 4rem;
+  font-weight: bold; 
+  
+   font-style: normal;
+  font-optical-sizing: auto;
+  color: #8e8a8a;
+  margin-bottom: 20px;
+  display: block; 
+}
+
+
+button {
+  display: inline-block; 
+  padding: 10px 20px;
+  font-family: "Great Vibes", cursive;
+
+
+
+  font-size: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  border: none;
+  border-radius: 1rem;
+ background: linear-gradient(90deg, #541554, #3b0c3b);
+  color: white;
+  transition: transform 0.2s ease, background-color 0.3s ease, border 0.3s ease;
+}
+button:hover { transform: scale(1.05); background: linear-gradient(90deg, #800080, #111111); border: 2px solid #800080; /* purple border on hover */ }
+
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem; 
+  }
+
+  button {
+    width: 80%; 
+    font-size: 1rem;
+  }
+}
